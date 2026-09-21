@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(#F0CEBB,#F0CEBB);
+    background-size: cover;
+    text-align: center;
+    color: black;
+    text-decoration:dotted;
+}
+h2 {
+    background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+h3 {
+    width: 50px;
+    height: 0%;
+}
+.Hello{
+    animation: wobble 3.5s ease-in-out infinite alternate; 
+}
+@keyframes wobble {
+    0%{rotate: -2deg;}
+    100%{rotate: 2deg;}
+}
