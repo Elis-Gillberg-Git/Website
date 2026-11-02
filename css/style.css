@@ -27,9 +27,23 @@ h3 {
     animation: wobble 3.5s ease-in-out infinite alternate;
 }
 
+* { box-sizing: border-box; }
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.card {  flex: 1 1 200px;
+    padding: 1rem;
+    border: 1px solid #888;
+}
+
+
+
 article{
     padding: 0px;
-
+    margin: 0px;
+    text-align: end;
 }
 
 @keyframes wobble {
@@ -90,6 +104,7 @@ nav.navlist li a{
     display: block;
     color: purple;
     padding: 20px 25px;
+    align-self: center;
     text-decoration: none;
 }   
 ul.navlist li a:hover{
